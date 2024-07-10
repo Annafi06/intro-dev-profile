@@ -51,7 +51,75 @@
 }
 
 /* Why web development starts here */
-
 .wwd{
     background-color: rgba(13, 19, 33, 0.02);
+    width: 1140;
+    height: 1393;
+    border-radius: 16px;
+    margin: 74px 152px 90px 148px;
+    
+}
+.wwd-tp{
+    
+    width: 946;
+    height: 1233;
+    padding: 80px 97px;
+    
+}
+
+.wwd-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.wwd-p{
+    font-size: 16px;
+    text-align: center;
+    opacity: 70%;
+}
+
+.cod-1{
+    background-color: #FFFFFF;
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+    margin: 0px 97px 32px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.cod-2{
+    background-color: #FFFFFF;
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+    margin: 0px 97px 32px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.cod-tit{
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cod-p{
+    color: #0D1321;
+    font-size: 16px;
+    opacity: 70%;
+}
+
+.btn-norm{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #0D1321;
+    border-color: #0D1321;
+    padding: 12px 20px;
+    margin-top: 32px;
 }
