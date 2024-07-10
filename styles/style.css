@@ -153,8 +153,89 @@
     color: rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.2);
+    margin-top: 48px;
 }
 
 .ins-2{
     border-radius: 16px;
+}
+
+.bhule{
+    padding: 0px 144px;
+}
+
+/* Target starts here */
+
+.target{
+    width: 1140px;
+    height: 1137px;
+    margin: 151px 150px 49px;
+}
+
+.target-tit{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.target-p{
+    color: #0D1321;
+    font-size: 16px;
+    text-align: center;
+    opacity: 70%;
+    padding: 0px 144px;
+}
+
+.target-items-1{
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 299px;
+    text-anchor: #001348;
+}
+
+.target-items-2{
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 299px;
+    text-anchor: #001348;
+}
+
+.target-items-3{
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 299px;
+    text-anchor: #001348;
+}
+
+.target-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.tar-head{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800px;
+}
+
+.tar-p{
+    color: #0D1321;
+    font-size: 16px;
+    opacity: 70%;
+}
+
+a{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 600;
 }
