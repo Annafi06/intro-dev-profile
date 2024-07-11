@@ -57,6 +57,7 @@
     height: 1393;
     border-radius: 16px;
     margin: 74px 152px 90px 148px;
+    padding-bottom: 80px;
     
 }
 .wwd-tp{
@@ -289,13 +290,51 @@ a{
     opacity: 70%;
 }
 
-.supp{
-}
+
 
 .support{
     width: 1140px;
     height: 313px;
-    background-image: url("../assets/handshake.jpg");
+    background-image: linear-gradient(0.00deg, rgb(0, 0, 0) -19.5%,rgba(0, 0, 0, 0) 100%),url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
     border-radius: 16px;
     margin-left: 165px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;            
+    text-align: center;
+    
+
+}
+
+.suppp{
+    width: 500px;
+    height: 25px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 20px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-sup{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: #0D1321;
+    font-weight: 600;
+    padding: 17px 20px;
+}
+
+.supp{
+    padding: 64px 48px;
+    width: 1044px;
+    height: 185px;
+}
+
+.lekha{
+    padding-bottom: 24px;
 }
