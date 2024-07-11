@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* Font theme */
 .azeret-mono-normal {
@@ -48,7 +52,11 @@
     width: 224px;
     height: 65;
     margin-bottom: 45px;
-    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-fill:hover{
+    background-color: blue;
 }
 
 /* Why web development starts here */
@@ -297,7 +305,7 @@ a{
 .support{
     width: 1140px;
     height: 313px;
-    background-image: linear-gradient(0.00deg, rgb(0, 0, 0) -19.5%,rgba(0, 0, 0, 0) 100%),url("../assets/handshake.jpg");
+    background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0.803) -19.5%,rgba(0, 0, 0, 0.1) 100%),url("../assets/handshake.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 16px;
