@@ -304,7 +304,7 @@ a{
     justify-content: center; 
     align-items: center;            
     text-align: center;
-    
+    margin-bottom: 20px;
 
 }
 
@@ -337,4 +337,23 @@ a{
 
 .lekha{
     padding-bottom: 24px;
+}
+
+/* footer sections starts here */
+
+.foot{
+    padding: 32px;
+    width: 1440px;
+    height: 100px;
+}
+
+.fut{
+    width: 1440px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
 }
