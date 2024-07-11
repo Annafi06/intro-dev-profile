@@ -48,6 +48,7 @@
     width: 224px;
     height: 65;
     margin-bottom: 45px;
+    cursor: pointer;
 }
 
 /* Why web development starts here */
@@ -123,6 +124,7 @@
     border-color: #0D1321;
     padding: 12px 20px;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 /* My Inspiration starts here */
@@ -327,6 +329,7 @@ a{
     color: #0D1321;
     font-weight: 600;
     padding: 17px 20px;
+    cursor: pointer;
 }
 
 .supp{
